@@ -3,11 +3,12 @@ body{
 }
 
 section{
-  background: black;
   position: absolute;
   width: 350px;
-  color: #FFD700;
-  -webkit-box-shadow: 0px 0px 22px 1px rgba(154,161,230,1);
-  -moz-box-shadow: 0px 0px 22px 1px rgba(154,161,230,1);
-  box-shadow: 0px 0px 22px 1px rgba(154,161,230,1);
+  box-shadow: 0px 0px 22px 1px rgba(154,161,230,0.3);
+}
+div{display: flex;}
+p{
+  color: azure;
+  font-size: xxx-large;
 }
