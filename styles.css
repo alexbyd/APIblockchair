@@ -1,15 +1,12 @@
 body{
-
   background-color: black;
-  color: black
 }
 
 section{
+  background: black;
   position: absolute;
-  z-index: -1;
-  width: 100px;
-  height: 400px;
-  color: white;
+  width: 350px;
+  color: #FFD700;
   -webkit-box-shadow: 0px 0px 22px 1px rgba(154,161,230,1);
   -moz-box-shadow: 0px 0px 22px 1px rgba(154,161,230,1);
   box-shadow: 0px 0px 22px 1px rgba(154,161,230,1);
