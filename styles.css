@@ -10,9 +10,12 @@ section{
 
 div{
   display: flex;
+  position: fixed;
 }
 
 p{
-  color: azure;
+  position: absolute;
+  color: #949494;
   font-size: xxx-large;
+  font-family: Consolas;
 }
