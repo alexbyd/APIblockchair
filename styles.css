@@ -22,12 +22,12 @@ li{list-style:none}
    My CSS
    ========================================================================== */
 
-/* ---- base ---- */
+/* ---- base ----    background:#111;*/
 
 html,body{
   width:100%;
   height:100%;
-  background:#111;
+
 }
 
 html{
@@ -35,7 +35,7 @@ html{
 }
 
 body{
-  font:normal 75% Consolas, Helvetica, sans-serif;
+
 }
 
 canvas{
@@ -52,14 +52,11 @@ canvas{
   top: 48px;
   left: 0;
   width: 80px;
-  color: #13E8E9;
   font-size: .8em;
   text-align: left;
   text-indent: 4px;
   line-height: 14px;
   padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
 }
 
 .js-count-particles{
@@ -82,10 +79,7 @@ canvas{
   border-radius: 0 0 3px 3px;
 }
 
-p{color: #949494;font-size: xxx-large}
-
-
-/* ---- particles.js container ---- */
+/* ---- particles.js container ----*/
 
 #particles-js{
   width: 100%;
@@ -97,17 +91,20 @@ p{color: #949494;font-size: xxx-large}
   background-repeat: no-repeat;
 }
 
-.panel{
+.card{
+  display: block;
   font-size:1.3em;
   position: absolute;
+  z-index:10;
   width:200px;
   height:220px;
-  background:#eee;
+  background: transparent;
   top:50%;
   left:50%;
-  margin:-110px 0 0 -100px;
+  margin:-100px 0 0 -100px;
   padding:20px;
+  border-radius(4px);
+  box-sizing(border-box);
   z-index:100;
-
- }
+}
 
