@@ -94,10 +94,8 @@ canvas{
   display: block;
   font-size:1.3em;
   position: absolute;
-  z-index:10;
   width:200px;
   height:220px;
-  background: transparent;
   top:50%;
   left:50%;
   margin:-100px 0 0 -100px;
@@ -105,5 +103,11 @@ canvas{
   border-radius(4px);
   box-sizing(border-box);
   z-index:100;
+  background-color: black;
+}
+
+.card-title{
+  font-size: xx-large;
+  color: #e3e4e5
 }
 

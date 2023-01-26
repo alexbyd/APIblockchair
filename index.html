@@ -9,21 +9,24 @@
     <div id="particles-js">
         <div class="js-container"><p style="color: #e3e4e5">caracolas</p></div>
 
-        <div class="card" style="width: 40rem; border: 1px solid #e3e4e5; border-radius: 4px">
-            <div class="card-body" style="z-index: 200; color: #f8faf8; font-size: 1.5em; background-color: transparent">
-                <h3 class="card-title" >name</h3>
-                <p>market_price_usd</p> <!-- usar el color verde claro para los datos que se traen de la api-->
-                <p>market_cap_usd</p>
-                <p>difficulty</p>
-                <p>blocks</p>
-                <p>difficulty</p>
-                <a href="#" class="card-link">Card link</a>
+        <div class="card" style="width: 40rem; border: 1px solid #e3e4e5; border-radius: 4px; box-shadow: 0px 0px 154px 184px rgba(0,0,0,1);">
+            <p class="card-title" >Bitcoin</p>
+            <div class="card-body" style="z-index: 200; color: #f8faf8; font-size: 1.5em; line-height: 14px; opacity: 0.8;">
+
+                     <pre>
+                <p>market_price_usd:  $<span id="market_price_usd"></span></p> <!-- usar el color verde claro para los datos que se traen de la api-->
+                <p>market_cap_usd:    $<span id="market_cap_usd"></span></p>
+                <p>difficulty:         <span id="difficulty"></span></p>
+                <p>blocks:             <span id="blocks"></span></p>
+                <p>blocks_24h:         <span id="blocks_24h"></span></p>
+                    </pre>
             </div>
         </div>
     </div>
 
         <script src="node_modules/particles.js/particles.js"></script>
         <script src="javascript/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
 
         <!-- color imagine: #f8faf8 -->
