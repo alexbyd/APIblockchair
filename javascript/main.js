@@ -5,7 +5,7 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 
 // Obtener informacion de la API 45288987-7454-4e3a-9ae8-4aa1bbf41fcb ?key=G___oGohGjhTGHtVOx8mmlNZokAlz5b4
 
-var url = "https://api.blockchair.com/bitcoin/stats/";
+var url = "https://api.blockchair.com/bitcoin/stats";
 
 let Crypto = new XMLHttpRequest();
 Crypto.open('GET', url);
