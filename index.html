@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link type="text/css" rel="stylesheet" media="only screen and (max-width: 320px)" href="responsive.css">
+    <link type="text/css" rel="stylesheet" media="only screen and (max-width: 500px)" href="responsive.css">
     <link type="text/css" rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <title>CryptoDatos</title>
 </head>
 <body>
     <div id="particles-js">
-        <div class="js-container"></div>
+        <div class="js-container">
+            <main>
+                <div class="card">
+                    <h1 class="card-title">Bitcoin </h1>
+                    <div class="card-body">
 
-        <div class="card">
-            <h1 class="card-title">Bitcoin </h1>
-            <div class="card-body">
+                            <!-- cambiar esto por una tabla th td-->
+                        <p>market_price_usd:   <span id="market_price_usd"></span>&nbsp$</p> <!-- usar el color verde claro para los datos que se traen de la api-->
+                        <p>market_cap_usd:     <span id="market_cap_usd"></span>&nbsp$</p>
+                        <p>difficulty:         <span id="difficulty"></span></p>
+                        <p>blocks:             <span id="blocks"></span></p>
+                        <p>blocks_24h:         <span id="blocks_24h"></span></p>
 
-                     <pre>
-                <p>market_price_usd:   <span id="market_price_usd"></span>&nbsp$</p> <!-- usar el color verde claro para los datos que se traen de la api-->
-                <p>market_cap_usd:     <span id="market_cap_usd"></span>&nbsp$</p>
-                <p>difficulty:         <span id="difficulty"></span></p>
-                <p>blocks:             <span id="blocks"></span></p>
-                <p>blocks_24h:         <span id="blocks_24h"></span></p>
-                    </pre>
+                    </div>
+            </main>
             </div>
         </div>
     </div>
