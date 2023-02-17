@@ -19,9 +19,6 @@ Crypto.addEventListener('load', function (e) {
 
   var mostrarDatos = response.data;
 
-  var container = document.querySelector(".js-container");
-  container.innerHTML += "<p>hola \""+ mostrarDatos.blockchain_size +"</p>";
-
   const market_price_usd = document.getElementById("market_price_usd");
   market_price_usd.innerText = mostrarDatos.market_price_usd;
 
